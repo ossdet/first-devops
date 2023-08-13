@@ -10,3 +10,4 @@ RUN cp -rvf photobusiness/* .
 RUN rm -rf photobusiness photobusiness.zip 
 CMD ["/usr/sbin/httpd","D","FOREGROUND"]
 EXPOSE 80
+#probebly the last change
