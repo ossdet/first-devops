@@ -1,0 +1,14 @@
+---
+- name : configure nginx web server
+  hosts: 138.91.92.113
+  tasks :
+  - name: install nginx server
+    apt:
+     name: nginx
+     state: latest
+  - name: start nginx server
+    service:
+     name: nginx
+     state: started
+
+
